@@ -3,6 +3,8 @@
  * @see https://v0.dev/t/xoGafr3HH2S
  */
 import { CardContent, Card } from "@/components/ui/card";
+import PDF from "../ui/pdf";
+
 
 export function Subjects() {
   return (
@@ -15,7 +17,8 @@ export function Subjects() {
           scrollbarWidth: "thin",
         }}
       >
-        <Card className="min-w-[250px] h-[140px]">
+       <PDF subject="Operating Systems" year={2023} className="w-[400px] aspect-[3/2]" />
+        {/* <Card className="min-w-[250px] h-[140px]">
           <CardContent>
             <p>Operating Systems Paper 2019</p>
           </CardContent>
@@ -49,7 +52,7 @@ export function Subjects() {
           <CardContent>
             <p>Operating Systems Paper 2023</p>
           </CardContent>
-        </Card>
+        </Card> */}
       </div>
       <h2 className="text-3xl font-bold p-4">Machine Learning</h2>
       <div

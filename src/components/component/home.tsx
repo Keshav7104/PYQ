@@ -38,7 +38,7 @@ export function Landing() {
                 Choose your branch to view question papers.
               </p>
             </div>
-            <div className="grid w-full gap-2 grid-cols-2 items-center justify-around md:grid-cols-3 lg:grid-cols-5">
+            <div className="grid w-full gap-2 grid-cols-1 items-center justify-around md:grid-cols-3 lg:grid-cols-5">
               {Branches.map((b,index) => {
                 return (
                   <Link
